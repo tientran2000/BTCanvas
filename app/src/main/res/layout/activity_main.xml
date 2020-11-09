@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img"/>
+<TableRow
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hcn"
+        android:id="@+id/hcn"
+        android:background="@drawable/viencong"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vuông"
+        android:id="@+id/hv"
+        android:background="@drawable/viencong"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tròn"
+        android:id="@+id/ht"
+        android:background="@drawable/viencong"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tam giác"
+        android:id="@+id/htg"
+        android:background="@drawable/viencong"/>
+
+</TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đỏ"
+            android:id="@+id/maudo"
+            android:background="@color/Do"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xanh"
+            android:id="@+id/mauxanh"
+            android:background="@color/xanh"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vàng"
+            android:id="@+id/mauvang"
+            android:background="@color/vang"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cam"
+            android:id="@+id/maucam"
+            android:background="@color/Cam"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tím"
+            android:id="@+id/mautim"
+            android:background="@color/tim"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hồng"
+            android:id="@+id/mauhong"
+            android:background="@color/hong"/>
+    </TableRow>
+</TableLayout>
